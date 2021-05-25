@@ -113,9 +113,9 @@ async function getForcast(forecast) {
       "</div>" +
       '<div class="temp">' +
       '<span class="high">' +
-      celsius_min.toFixed(2) +
-      '℃</span>/<span class="low">' +
       celsius_max.toFixed(2) +
+      '℃</span>/<span class="low">' +
+      celsius_min.toFixed(2) +
       "℃</span>" +
       "</div>" +
       "</div>";
