@@ -2,7 +2,7 @@
 const api = "2a95e3aa94444f6150c3420a186874ee";
 let currentCondition = document.getElementById("current-conditions");
 let forecastDiv = document.getElementById("fivedayforecast");
-// declar week day array for forecast day name
+// declare week day array for forecast day name
 const weekDays = [
   "Sunday",
   "Monday",
@@ -39,7 +39,8 @@ async function getcurrent(current) {
 }
 
 window.addEventListener("load", () => {
-  let long, lat;
+  let long;
+  let lat;
   // Accesing the Geolocation 
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((position) => {
